@@ -8,7 +8,7 @@ function About() {
       <p>learn more about the darkmode i used...</p>
       <a href="https://darkmodejs.learn.uno/" rel="noopener noreferrer" target="_blank">https://darkmodejs.learn.uno/</a>
 
-      <h4>Notes: very simple to use, but think that this method does perhaps restricted</h4>
+      <h4>Notes: very simple to use, but I feel that this method feels a bit restrictive</h4>
 
       <br></br><br></br><br></br>
       <h4>Demo sites</h4>
