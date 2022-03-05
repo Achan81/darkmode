@@ -19,6 +19,51 @@ p {
   color: #000;
 }
 
-.darkmode-layer, .darkmode-toggle {
-  z-index: 500;
+
+// .darkmode-layer, .darkmode-toggle {
+//   z-index: 1;
+// }
+
+// .img {
+//   z-index: 501;
+// }
+
+
+.icon {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 0;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  float: left, right, top, bottom;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  z-index: 1;
+}
+
+.icon:hover {
+  z-index: 5;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+  -moz-transform: rotate(720deg);
+}
+
+.mail-image {
+  height: 6em;
+  width: 6em;
+}
+
+.acgh-image {
+  height: 6em;
+  width: 7em;
+}
+
+.linkedin-image {
+  height: 6em;
+  width: 6em;
 }
