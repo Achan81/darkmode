@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+
+#home {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+#about {
+
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
