@@ -3,13 +3,17 @@ import React from 'react'
 function About() {
   return (
 
-    <div className="container-fluid justify-content-center blurry-text text-uppercase opacity-100" id="about">
+    <div className="container-fluid justify-content-center blurry-text opacity-100" id="about">
       <h1 className="col fw-normal">DARKMODE.js</h1>
       <p>learn more about the darkmode i used...</p>
       <a href="https://darkmodejs.learn.uno/" rel="noopener noreferrer" target="_blank">https://darkmodejs.learn.uno/</a>
 
-      <h4>Notes: very simple to use, but I feel that this method feels a bit restrictive</h4>
-
+      <h4>Notes:</h4>
+      <p>very simple to use for basic single page apps</p>
+      <p>however - on initial set up, all images also inversed = need to add classes to ignore dark mode</p>
+      <p>my portfolio originally used AOS (animation on scroll) plugins and because of this, darkmode.js conflicted and did not work properly</p>
+      <p>nav bar burger menu - not flipping because icon is svg would need to set state and toggle between navicon light/dark to make fully responsive</p>
+      
       <br></br><br></br><br></br>
       <h4>Demo sites</h4>
       <p><a href="https://tradivegan.com" rel="noopener noreferrer" target="_blank">https://tradivegan.com (with custom label)</a></p>
@@ -21,7 +25,8 @@ function About() {
 
       <img src= "https://i.imgur.com/TgX2rf8.jpg?1" className= "interests-img col-6 col-md-3" alt="interests img" />   
       <p>this image will also have its colours inversed unless i apply a class to stop it from taking the darkmode effect</p>
-     
+    
+      <br></br><br></br>
       <div className="container">
         <div className="d-flex flex-row justify-content-center">
           <a href="mailto:achan81@icloud.com" rel="noopener noreferrer" target="_blank">
